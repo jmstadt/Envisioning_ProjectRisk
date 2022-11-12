@@ -1,4 +1,3 @@
-Flask
+Flask=1.1.2
 Gunicorn
 fastai==2.7.10
-typing-extensions<4.0.0.0,>=3.7.4.1
