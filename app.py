@@ -35,7 +35,7 @@ def download_if_not_exists(filename, url):
 
 download_if_not_exists(export_file_name, export_file_url)
 
-learn = load_learner(path, export_file_name)
+learn = load_learner(export_file_name)
 
 app = Flask(__name__)
 
